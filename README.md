@@ -15,8 +15,7 @@ component, it offers:
 
 More information, links to Carrot in the Chrome Web Store, and an
 external package file are available at https://github.com/Dynamic-Build/Carrot/releases.
-Documentation can be found in the
-`wiki <https://github.com/Dynamic-Build/Carrot/wiki>`__.
+Documentation can be found at https://github.com/Dynamic-Build/Carrot/wiki.
 
 You can also load Carrot from source code, either to hack around on or
 to try the absolute bleeding edge. You'll need to have Node and NPM

@@ -12,9 +12,9 @@ module.exports = function(grunt) {
     less: {
       light: {
         files: {
-          "css/caret.css": "css/seed.less",
-          "css/caret-twilight.css": "css/seed-twilight.less",
-          "css/caret-dark.css": "css/seed-dark.less"
+          "css/carrot.css": "css/seed.less",
+          "css/carrot-twilight.css": "css/seed-twilight.less",
+          "css/carrot-dark.css": "css/seed-dark.less"
         }
       }
     },
@@ -70,7 +70,7 @@ module.exports = function(grunt) {
       compression: "DEFLATE",
       compressionOptions: { level: 8 }
     });
-    fs.writeFileSync("./build/caret.zip", zipped);
+    fs.writeFileSync("./build/carrot.zip", zipped);
   });
 
   grunt.registerTask("chrome", "Makes a new CRX package", function() {
